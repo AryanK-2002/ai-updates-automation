@@ -8,7 +8,7 @@ The system is designed to demonstrate practical application of AI in workflow au
 
 Key Features :
 
-Multi-source data aggregation from RSS feeds (Hugging Face, Reddit, and other AI-related sources)
+Multi-source data aggregation from RSS feeds (Hugging Face, Reddit and Product Hunt)
 
 Automated data merging and preprocessing
 
@@ -29,7 +29,9 @@ Scheduled trigger initiates the workflow at defined intervals
 Multiple RSS feeds are fetched in parallel
 
 Data from all sources is merged into a unified stream
+
 Content is cleaned and formatted for processing
+
 Llama 3 generates concise summaries of each update
 
 Conditional logic filters high-quality and relevant items
